@@ -7,21 +7,20 @@ import Image from 'next/image';
 const Home = () => {
  
   const handleAboutClick = () => {
-    window.location.href = '/about'; // Replace with your actual about page path
+    window.location.href = '/about'; // Replace with your OWN URL about page  
   };
   const handleRandomClick = () => {
-    window.location.href = '/story'; // Replace with your actual about page path
+    window.location.href = '/story'; // Replace with your OWN URL   page path
   };
   
   const handlePanopticClick = () => {
-    window.location.href = 'https://panopticpen.space'; // Replace with your actual about page path
+    window.location.href = 'https://panopticpen.space'; // Replace with your OWN URL   page path
   };
   const handleAllPostsClick = () => {
-    window.location.href = '/all'; // Replace with your actual about page path
+    window.location.href = '/all'; // Replace with your OWN URL   page path
   };
   const randomPost: React.MouseEventHandler<HTMLButtonElement> = () => {
-    // Implementation remains the same
-  }
+   }
   return (
     <main className="flex flex-col items-center justify-between min-h-screen px-4 py-8 md:p-24">
       <section className="flex flex-col items-center w-full max-w-5xl font-mono text-sm lg:flex-row lg:justify-between">
